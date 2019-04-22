@@ -364,7 +364,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #a1adad; }
 
-#msg_input { background: #003340; border-color: #002b36; color: #a1adad;  font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+#msg_input { background: #003340; border-color: #002b36; color: #a1adad;  font-size: 8em; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 #msg_input::-webkit-input-placeholder { color: #a1adad !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -1579,23 +1579,23 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #dc322f; }
 
 .sssh-link { color: #268bd2; }
 
-.c-message--dense { font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+.c-message--dense { font-size: 8em; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 .c-message--dense .c-timestamp__label { color: #268bd2; }
 
 .c-message--dense .c-message__content_header .c-custom_status { border-color: #00232c; }
 
-.dense_theme ts-message { color: #a1adad; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+.dense_theme ts-message { color: #a1adad; font-size: 8em; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 .dense_theme ts-message.first .message_gutter .timestamp, .dense_theme ts-message.selected .message_gutter .timestamp { color: #268bd2; }
 
 .dense_theme ts-message .message_content .message_current_status { border-color: #00232c; }
 
-.c-message--light { font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+.c-message--light { font-size: 8em; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 .c-message--light .c-message__sender .c-message__sender_link { color: #a1adad; }
 
-.light_theme ts-message { color: #a1adad; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+.light_theme ts-message { color: #a1adad; font-size: 8em; font-family: "Roboto Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #a1adad !important; }
 
@@ -2849,7 +2849,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #b5
 
 #fs_modal.prefs_modal #prefs_sidebar #prefs_themes_customize .colpick { background: #002b36; border: 1px solid #00232c; }
 
-#fs_modal.prefs_modal #prefs_sidebar #prefs_sidebar_theme::after { background: #dc322f; border-radius: 3px; content: "Light sidebar themes (e.g. Hoth) will break this Stylish theme."; display: block; font-size: 14px; line-height: 18px; margin: 12px 0 6px; padding: 6px; width: 100%; }
+#fs_modal.prefs_modal #prefs_sidebar #prefs_sidebar_theme::after { background: #dc322f; border-radius: 3px; content: "Light sidebar themes (e.g. Hoth) will break this Stylish theme."; display: block; font-size: 10px; line-height: 18px; margin: 12px 0 6px; padding: 6px; width: 100%; }
 
 #fs_modal.prefs_modal legend { color: #a1adad; }
 
